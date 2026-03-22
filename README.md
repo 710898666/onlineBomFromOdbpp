@@ -2,8 +2,6 @@
 Advanced Interactive HTML BOM with native ODB++ support. A professional-grade fork of InteractiveHtmlBom designed for intelligent CAD/CAM data visualization and seamless PCBA assembly workflows.
 Using English is definitely the right move. In the global hardware engineering community, **ODB++** is recognized as the "intelligent" alternative to Gerber, and an English README makes your project accessible to professional NPI (New Product Introduction) engineers and PCBA (PCB Assembly) houses worldwide.
 
-Here is a professional, high-impact GitHub setup for your project:
-
 ---
 
 ## 1. Repository Description (The "Elevator Pitch")
@@ -35,27 +33,4 @@ In professional hardware environments (like designing a **High-Speed Networking 
 * **The Matrix**: We utilize the ODB++ Matrix to ensure the visual stackup in your browser matches the physical layer order.
 * **Component Centroids**: Unlike Gerber-based BOMs that rely on separate pick-and-place files, our ODB++ parser extracts coordinates directly from the manufacturing database, ensuring **zero-offset alignment** on BGA and QFN packages.
 
----
 
-### 🚀 Getting Started
-1.  Export your design as an ODB++ archive from **Altium Designer**, **Cadence Allegro**, or **Siemens Xpedition**.
-2.  Run the generator:
-    ```bash
-    python3 GenerateBom.py your_design.tgz
-    ```
-3.  Open the generated `.html` file and start your assembly.
-
----
-
-### 🤝 Credits & Licensing
-* Base Project: [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) by openscopeproject.
-* License: [MIT/GPL] (Ensure this matches the original project's license).
-
----
-
-## 3. A "Pro" Tip for your GitHub Profile
-To make this look even more professional, add **Topics** (Tags) to your repository:
-`pcb-assembly` `odbplusplus` `npi` `hardware-engineering` `pcba` `bom-management` `eda-tools`
-
-### Would you like me to help you draft the technical "Implementation Details" section? 
-I can explain how your code handles the **ODB++ filesystem structure** (e.g., parsing the `layers/` and `symbols/` directories) to prove the robustness of your parser to other contributors.

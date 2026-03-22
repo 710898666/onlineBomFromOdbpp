@@ -1,4 +1,4 @@
-# onlineBomFromOdb-
+# onlineBomFromOdbpp
 Advanced Interactive HTML BOM with native ODB++ support. A professional-grade fork of InteractiveHtmlBom designed for intelligent CAD/CAM data visualization and seamless PCBA assembly workflows.
 Using English is definitely the right move. In the global hardware engineering community, **ODB++** is recognized as the "intelligent" alternative to Gerber, and an English README makes your project accessible to professional NPI (New Product Introduction) engineers and PCBA (PCB Assembly) houses worldwide.
 
